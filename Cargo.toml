@@ -1,0 +1,13 @@
+[package]
+name = "rs-ed25519-sign"
+version = "1.0.0"
+edition = "2021"
+description = "Ed25519 digital signature (Edwards curve) from scratch"
+license = "MIT"
+authors = ["Mahmoud ElNemer <sultanelnemer@gmail.com>"]
+repository = "https://github.com/ElNeMeR70/rs-ed25519-sign"
+keywords = ["rust", "ed25519", "signature", "cryptography", "security"]
+
+[[bin]]
+name = "rs_ed25519_sign"
+path = "main.rs"
